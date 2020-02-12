@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8975E57523F3937E0016A783 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8975E57423F3937E0016A783 /* DetailViewController.swift */; };
 		89B28AC023EDE9F300008953 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B28ABF23EDE9F300008953 /* AppDelegate.swift */; };
 		89B28AC223EDE9F300008953 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B28AC123EDE9F300008953 /* SceneDelegate.swift */; };
 		89B28AC423EDE9F300008953 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B28AC323EDE9F300008953 /* ViewController.swift */; };
 		89B28AC723EDE9F300008953 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B28AC523EDE9F300008953 /* Main.storyboard */; };
 		89B28AC923EDE9F900008953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B28AC823EDE9F900008953 /* Assets.xcassets */; };
 		89B28ACC23EDE9F900008953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B28ACA23EDE9F900008953 /* LaunchScreen.storyboard */; };
+		89B28AD423EDEC5A00008953 /* Petition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B28AD323EDEC5A00008953 /* Petition.swift */; };
+		89B28AD623EDECB400008953 /* Petitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B28AD523EDECB400008953 /* Petitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8975E57423F3937E0016A783 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		89B28ABC23EDE9F300008953 /* ServersIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServersIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B28ABF23EDE9F300008953 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89B28AC123EDE9F300008953 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		89B28AC823EDE9F900008953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B28ACB23EDE9F900008953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B28ACD23EDE9F900008953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B28AD323EDEC5A00008953 /* Petition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petition.swift; sourceTree = "<group>"; };
+		89B28AD523EDECB400008953 /* Petitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Petitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				89B28ABF23EDE9F300008953 /* AppDelegate.swift */,
 				89B28AC123EDE9F300008953 /* SceneDelegate.swift */,
 				89B28AC323EDE9F300008953 /* ViewController.swift */,
+				89B28AD323EDEC5A00008953 /* Petition.swift */,
+				89B28AD523EDECB400008953 /* Petitions.swift */,
 				89B28AC523EDE9F300008953 /* Main.storyboard */,
+				8975E57423F3937E0016A783 /* DetailViewController.swift */,
 				89B28AC823EDE9F900008953 /* Assets.xcassets */,
 				89B28ACA23EDE9F900008953 /* LaunchScreen.storyboard */,
 				89B28ACD23EDE9F900008953 /* Info.plist */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89B28AC423EDE9F300008953 /* ViewController.swift in Sources */,
+				89B28AD423EDEC5A00008953 /* Petition.swift in Sources */,
 				89B28AC023EDE9F300008953 /* AppDelegate.swift in Sources */,
+				8975E57523F3937E0016A783 /* DetailViewController.swift in Sources */,
 				89B28AC223EDE9F300008953 /* SceneDelegate.swift in Sources */,
+				89B28AD623EDECB400008953 /* Petitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
